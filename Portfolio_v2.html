@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi! I'm Sathya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <span class="theme-icon" id="themeIcon">❄️</span>
+    </div>
+
+    <div class="sparkles" id="sparkles"></div>
+
+    <div class="container">
+        <div class="main-card">
+            <div class="doodle doodle-1">✨</div>
+            <div class="doodle doodle-2">🌙</div>
+            <div class="doodle doodle-3">💫</div>
+            
+            <div class="content-wrapper">
+                <div class="character-area">
+                    <div class="character-illustration-large">
+                        <!-- <div class="char-large">👧</div> -->
+                        <div class="char-large"><img src="resource\fds.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="info-area">
+                    <h1 class="greeting">Hi! <span class="name">I'm Sathya</span></h1>
+                    <p class="tagline">Welcome to my corner. Do you wanna know something about me?</p>
+
+                    <div class="menu-grid">
+                        <div class="menu-btn" onclick="openWindow('about', event)">
+                            <div class="btn-icon"><span class="cat-icon"><img src="resource/aboutMesmall.png" /></span></div>
+                            <div class="btn-label">about</div>
+                        </div>
+                        <div class="menu-btn" onclick="openWindow('work', event)">
+                            <div class="btn-icon"><span class="cat-icon"><img src="resource/work_small.png" /></span></div>
+                            <div class="btn-label">work</div>
+                        </div>
+                        <div class="menu-btn" onclick="openWindow('art', event)">
+                            <div class="btn-icon"><span class="cat-icon"><img src="resource/artSmall.png" /></span></div>
+                            <div class="btn-label">art</div>
+                        </div>
+                        <div class="menu-btn" onclick="openWindow('skills', event)">
+                            <div class="btn-icon"><span class="cat-icon">⚡</span></div>
+                            <div class="btn-label">skills</div>
+                        </div>
+                        <div class="menu-btn" onclick="openWindow('contact', event)">
+                            <div class="btn-icon"><span class="cat-icon"><img src="resource/contactsmall.png" /></span></div>
+                            <div class="btn-label">contact</div>
+                        </div>
+                        <div class="menu-btn" onclick="openWindow('stuff', event)">
+                            <div class="btn-icon"><span class="cat-icon"><img src="resource/stuffSmall.png" /></span></div>
+                            <div class="btn-label">stuff</div>
+                        </div>
+                    </div>
+
+                    <div class="links-section">
+                        <div class="link-label">Links:</div>
+                        <div class="social-links">
+                            <div class="social-btn" title="Facebook" onclick="createSparkles(event)"><a href="https://web.facebook.com/real.sathya"><i class="fa-brands fa-facebook fa-xl" style="color: #74C0FC;"></i></a></div>
+                            <div class="social-btn" title="LinkedIn" onclick="createSparkles(event)"><a href="https://www.linkedin.com/in/morn-sathya-3038b421a/"><i class="fa-brands fa-square-linkedin fa-xl" style="color: #0c306e;"></i></a></div>
+                            <div class="social-btn" title="GitHub" onclick="createSparkles(event)"><a href="https://github.com/konpozzhr"><i class="fa-brands fa-github fa-xl" style="color: #030507;"></i></a></div>
+                            <div class="social-btn" title="Instagram" onclick="createSparkles(event)"><a href="https://www.instagram.com/sathya__kk/"><i class="fa-brands fa-instagram fa-rotate-270 fa-xl" style="color: #b10629;"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="cat-companion" onclick="createSparkles(event)">😺</div> -->
+            <div class="cat-companion" onclick="createSparkles(event)"><img src="resource\fdsafdsa (2).png" alt=""></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
