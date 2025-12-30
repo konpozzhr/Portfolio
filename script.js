@@ -369,6 +369,7 @@ function toggleTheme() {
         themeIcon.textContent = '🌠';
     } else {
         themeIcon.textContent = '❄️';
+        // themeIcon.textContent = 'Light';
     }
 }
 
